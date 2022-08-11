@@ -1,12 +1,36 @@
- * {
-    box-sizing:border-box
+ *{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
  }
+
 html {
     font-size: 62.5%;
 }
 
  .header-main-footer {
     background: #1F2937;
+ }
+
+ .header-main-footer.footer {
+    color: #F9FAF8;
+ }
+
+ header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+ }
+
+ .header-main-footer.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .ps5-image {
+    width: 35%;
  }
 
 .hero-main-text {
@@ -18,15 +42,26 @@ html {
  .secondary-Text, .header-link {
     font-size: 1.8rem;
     color: #E5E7EB;
+    text-decoration: none;
+ }
+
+ .game-box-cover {
+    width: 30%;
  }
 
  .img-description-text{
-    color: grey;
+    color: #1F2937;
  }
 
  .button-style{
     background: #3882F6;
+    font-weight: bold;
+    font-size: 1rem;
     color: #E5E7EB;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
  }
 
  .header-logo-text{
@@ -48,3 +83,14 @@ html {
     color: #1F2937;
     font-weight: 300;
  }
+
+ .header-link-container {
+    list-style: none;
+ }
+
+ .header-link-container li {
+    display: inline-block;
+    padding: 0 20px;
+ }
+
+ 
