@@ -18,7 +18,10 @@ main section {
  }
 
  .header-main-footer.footer {
-    color: #F9FAF8;
+   color: #F9FAF8;
+   padding: 2rem;
+   text-align: center;
+   font-size: 1.5rem;
  }
 
  header {
@@ -67,38 +70,48 @@ main section {
     color: #1F2937;
     text-align: center;
     font-size: 2rem;
+    padding: 0rem 1rem 1rem 1rem;
  }
 
- .button-style{
+ .button-style, .call-to-action-section{
     background: #3882F6;
     font-weight: bold;
     font-size: 1rem;
     color: #E5E7EB;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     padding: 0.5rem 1rem;
-    border: none;
-    outline: none;
- }
+   }
+
+   .button-style {
+     border-color: #ffffff;
+   }
 
  .header-logo-text{
     font-size: 2.4rem;
     color: #F9FAF8;
  }
 
+ main + section {
+   padding: 2rem 0rem;
+ }
+
  .h2-styling {
     font-size: 3.6rem;
     color: #1F2937;
     padding: 1rem;
+    text-align: center;
  }
 
 .quote-section {
-    background-color: #E5E7EB;
+   padding: 5rem 20rem ;
+   background-color: #E5E7EB;
 }
 
  .quote {
-    font-size: 3.6rem;
+    font-size: 2rem;
     color: #1F2937;
     font-weight: 300;
+    text-align: center;
  }
 
  .header-link-container {
@@ -110,4 +123,17 @@ main section {
     padding: 0 20px;
  }
 
- 
+ .call-to-action-section{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 3rem;
+   margin: 5rem 40rem;
+ }
+
+ h3 {
+   font-size: 1.5rem;
+ }
+
+ .quote-author-text {
+   font-size: 1.5rem;
+ }
