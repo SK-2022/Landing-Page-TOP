@@ -6,6 +6,11 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'roboto','arial','san-serif';
+}
+
+main section {
+   flex: 1;
 }
 
  .header-main-footer {
@@ -25,12 +30,21 @@ html {
 
  .header-main-footer.main {
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 5rem;
+ }
+
+ .PS5-image-section{
+   display: flex;
+   justify-content: center;
+ }
+
+ .box-art-image-container{
+   display: flex;
  }
 
  .ps5-image {
-    width: 35%;
+    width: 60%;
  }
 
 .hero-main-text {
@@ -46,11 +60,13 @@ html {
  }
 
  .game-box-cover {
-    width: 30%;
+    width: 100%;
  }
 
  .img-description-text{
     color: #1F2937;
+    text-align: center;
+    font-size: 2rem;
  }
 
  .button-style{
@@ -72,6 +88,7 @@ html {
  .h2-styling {
     font-size: 3.6rem;
     color: #1F2937;
+    padding: 1rem;
  }
 
 .quote-section {
